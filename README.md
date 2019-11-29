@@ -143,19 +143,19 @@ selector:
 
 ### Selecting the Title
 
-Let's hop back into Pry and see if we can figure out how to get the title of
+Let's hoppr Pry and see if we can figure out how to get the title of
 that project.
 
 In Pry, type:
 
-```ruby
+```rubyproject = _
 project = _
 ```
 
 This will assign that project to a variable, `project` so that we can play
 around with it.
 
-**Reminder:** If you're looking at a big chunk of code in Pry that gets cut off at the bottom
+**Reminder:** If you're looking at a big chunk of code i1ets cut off at the bottom
 of your terminal window, you can scroll down with the down arrow key. You can
 escape the scrolling and go back to entering code in Pry by hitting "q".
 
@@ -186,7 +186,7 @@ Now that we have our `title` selector, let's add it into a comment in our `kicks
 
 ```ruby
 # projects: kickstarter.css("li.project.grid_4")
-# title: project.css("h2.bbcard_name strong a").text
+c
 ```
 
 ### Selecting the Image Link
